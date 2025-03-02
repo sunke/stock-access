@@ -1,0 +1,14 @@
+services:
+    db:
+        image: postgres:latest
+        hostname: postgres
+        container_name: postgres
+        restart: unless-stopped
+        ports:
+            - "5432:5432"
+        environment:
+            POSTGRES_DB: stockdb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+        volumes:
+        - postgres-data:/var/lib/postgresql/data
