@@ -1,4 +1,4 @@
-package net.codenest
+package net.codenest.stockaccess
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
