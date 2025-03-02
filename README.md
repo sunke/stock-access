@@ -76,8 +76,8 @@ spring.security.user.password=password
 ```
 
 ### Accessing the Application
-The application will be available at http://localhost:8080.
-Swagger UI can be accessed at http://localhost:8080/swagger-ui.html.
+1. The application will be available at http://localhost:8080.
+2. Swagger UI can be accessed at http://localhost:8080/swagger-ui.html.
 
 ### Testing the Application
 1. Get all stocks (with pagination)
